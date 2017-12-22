@@ -4,7 +4,7 @@ class IndexController < ApplicationController
   after_action :endLogger
 
   def index
-
+    puts "Index起動"
   end
 
   def login
